@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle`
     :root{
-        --bg-default: #f2f2f2;
+       
     }
 
     *{
@@ -16,7 +16,6 @@ export const Global = createGlobalStyle`
     }
 
     body{
-        background: var(--bg-default);
         font-size: 3rem;
         width: 100%;
         height: 100vh;

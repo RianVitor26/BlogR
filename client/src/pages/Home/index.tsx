@@ -1,7 +1,7 @@
-import { Container } from './styles'
+import { Button } from '@mui/material'
 
 export const Home = () => {
   return (
-    <Container>Home</Container>
+    <Button variant="contained" color="secondary">Click</Button>
   )
 }
